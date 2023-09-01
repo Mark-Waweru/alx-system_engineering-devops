@@ -13,4 +13,12 @@
 12-file_type file prints the type of the file named iamafile.The file will be in th/tmp directory when you run the script
 13-symbolic_link file creates a symbolic link to /bin/ls,named__ls__
 14-copy_html file copies all the HTML file from the current working directory to the parent of the working directory but only copy files that did not exist in the parent of the working directory or were newer than the version in the parent of the working directory
-
+100-lets_move file moves all files beginning with an uppercase letter to the directory /tmp/u
+101-clean_emacs file deletes all files in the current working directory that end with the character ~
+102-tree file creates the directories welcome, welcome/to and welcome/to/shool in the current directory
+102-commas filelist all the files and directories of the current directory, separated by commas (,)
+Directory names end with a slash (/)
+files and directories starting with a dot (.) are listed
+The listing is alpha ordered except for the directories (.) (..) which are listed at the very beginning
+Only digits and letters are used to sort.Digits come first
+school.mgc file is used to detect school data files
