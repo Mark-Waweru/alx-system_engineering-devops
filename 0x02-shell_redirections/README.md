@@ -23,3 +23,15 @@ Hidden directories should be counted
 20-hiago removes all letters c and C from input
 21-reverse file reverse its input
 22-users_and_homes displays all users and their home directories, sorted by users in the /etc/passwd file.
+100-empty_casks file finds all empty files and directories in the cuurent directory and all sub directories.
+Only the name of the files and directories are displayed(not the entire path)
+Hidden files are also listed
+One file name per line
+The listing end with a new line
+101-gifs file lists all the files witha 'gif extension in the current directory and all its sub-directories
+Hidden files are listed
+Only regular files(not directories)are listed
+The names of the files are displayed without their extensions
+The file are sorted by byte values, but case-insensitive
+One file name per line
+102-acrostic file decodes acrostics that use the first letter of each line.
