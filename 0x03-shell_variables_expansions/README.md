@@ -13,3 +13,10 @@
 12-combinations file prints all possible combinations of two letters except oo.
 The letters are lower cases, from a to z, One combination per line, The output is alpha ordered strating with aa and it contains a maximum of 64 characters
 13-print_float file prints the number with two decimal places and the number wil be stored in the enviroent variable NUM
+1000-decimal_to_hexadecimal file converts a  number from base 10 to base 16 and the number is stored in a environment variable DECIMAL
+101-rot13 file encodes and decodes text using the rot13 encryption.Assume ASCII
+102-odd file prints every other line from the input, starting with the first line
+103-water_and_stir file adds the two numbers stored in the enviroment variable WATER and STIR and prints the result. 
+WATER is in base water 
+STIR is in base stir
+The result should be in base bestchol
